@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VitaLink - Tu Red de Apoyo para el Cuidado Geriátrico</title>
+
+    <link rel="shortcut icon" href="./favicon.png" type="image/png" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- Preconexión a Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Fuentes de Google -->
+    <!--    <link
+      href="https://fonts.googleapis.com/css2?family=Catamaran:wght@600;700;800;900&family=Rubik:wght@400;500;800&display=swap"
+      rel="stylesheet"
+    /> -->
+
+    <!-- ia -->
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ia -->
+
+    <!-- Pre-carga de Imágenes -->
+    <link rel="preload" as="image" href="./assets/images/hero-banner.png" />
+    <link
+      rel="preload"
+      as="image"
+      href="./assets/images/hero-circle-one1.png"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="./assets/images/hero-circle-two1.png"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="./assets/images/about-circle-one1.png"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="./assets/images/about-circle-two1.png"
+    />
+    <link rel="preload" as="image" href="./assets/images/heart-rate1.svg" />
+    <link rel="preload" as="image" href="./assets/images/calories1.svg" />
+  </head>
+
+  <body id="top">
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./assets/images/trinidad.png"
+            class="trinidad"
+            alt="logo trinidad"
+          />
+          <!-- <ion-icon name="share-social-sharp" aria-hidden="true"></ion-icon> -->
+          <span class="span">Trinidad</span>
+        </a>
+        <nav class="navbar" data-navbar>
+          <button
+            class="nav-close-btn"
+            aria-label="close menu"
+            data-nav-toggler
+          >
+            <ion-icon name="close-sharp" aria-hidden="true"></ion-icon>
+          </button>
+          <ul class="navbar-list">
+            <li>
+              <a href="#home" class="navbar-link active" data-nav-link
+                >Inicio</a
+              >
+            </li>
+            <li>
+              <a href="#about" class="navbar-link" data-nav-link>Nosotros</a>
+            </li>
+            <li>
+              <a href="#class" class="navbar-link" data-nav-link>Casas</a>
+            </li>
+            <li>
+              <a href="#blog" class="navbar-link" data-nav-link>Apartamentos</a>
+            </li>
+            <li>
+              <a href="#footer" class="navbar-link" data-nav-link
+                >Contáctanos</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <a
+          href="https://wa.me/573178218807?text=Me%20encuentro%20interesado%20en%20servicios%20ofrecidos%20por%20Vitalink."
+          class="btn btn-secondary"
+          target="_blank"
+          rel="noopener noreferrer"
+          >consulta</a
+        >
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <section
+          class="section hero bg-dark has-after has-bg-image"
+          id="home"
+          aria-label="hero"
+          data-section
+          style="background-image: url('./assets/images/hero-bg.png')"
+        >
+          <div class="container">
+            <div class="hero-content">
+              <p class="hero-subtitle">
+                <strong class="strong">Mejores</strong>Opciones Inmobiliarias
+              </p>
+              <h1 class="h1 hero-title">En un solo lugar</h1>
+              <p class="section-text">
+                Somos expertos en bienes raíces, ofrecemos propiedades
+                exclusivas y asesoría personalizada para construir tu patrimonio
+                con seguridad y elegancia.
+              </p>
+              <a
+                href="https://wa.me/573178218807?text=Me%20encuentro%20interesado%20en%20servicios%20ofrecidos%20por%20Trinidad."
+                class="btn btn-primary"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Asesoría</a
+              >
+            </div>
+            <div class="hero-banner">
+              <img
+                src="./assets/images/hero-1.png"
+                width="660"
+                height="753"
+                alt="hero banner"
+                class="w-100"
+              />
+
+              <img
+                src="./assets/images/hero-circle-one1.png"
+                width="666"
+                height="666"
+                aria-hidden="true"
+                alt=""
+                class="circle circle-1"
+              />
+
+              <img
+                src="./assets/images/hero-circle-two1.png"
+                width="666"
+                height="666"
+                aria-hidden="true"
+                alt=""
+                class="circle circle-2"
+              />
+
+              <img
+                src="./assets/images/heart-rate1.svg"
+                width="255"
+                height="270"
+                alt="heart rate"
+                class="abs-img abs-img-1"
+              />
+              <img
+                src="./assets/images/casa.png"
+                width="348"
+                height="224"
+                alt="calories"
+                class="abs-img abs-img-2"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section class="section about" id="about" aria-label="about">
+          <div class="container">
+            <div class="about-banner has-after">
+              <img
+                src="./assets/images/about-banner1.png"
+                width="660"
+                height="648"
+                loading="lazy"
+                alt="about banner"
+                class="w-100"
+              />
+
+              <img
+                src="./assets/images/about-circle-one1.png"
+                width="660"
+                height="534"
+                loading="lazy"
+                aria-hidden="true"
+                alt=""
+                class="circle circle-1"
+              />
+
+              <img
+                src="./assets/images/about-circle-two1.png"
+                width="660"
+                height="534"
+                loading="lazy"
+                aria-hidden="true"
+                alt=""
+                class="circle circle-2"
+              />
+
+              <img
+                src="./assets/images/fitness1.png"
+                width="650"
+                height="154"
+                loading="lazy"
+                alt="fitness"
+                class="abs-img w-100"
+                z-index="40"
+              />
+            </div>
+            <div class="about-content">
+              <p class="section-subtitle">Nosotros</p>
+              <h2 class="h2 section-title">Quiénes Somos</h2>
+              <p class="section-text">
+                VitaLink, con sede en Nueva Jersey y 5 años de experiencia,
+                conecta familias con hogares geriátricos y cuidadores
+                profesionales en Latinoamérica y Colombia. Mediante información
+                detallada, visitas virtuales y un riguroso proceso de selección,
+                facilitamos la elección del entorno ideal para adultos mayores,
+                garantizando seguridad y bienestar.
+              </p>
+              <p class="section-text">
+                Además, ofrecemos acceso a cuidadores certificados para atención
+                ocasional o domiciliaria. Nuestra plataforma no solo empodera a
+                las familias, sino que también ayuda a instituciones y
+                profesionales a ampliar su alcance, creando una red de cuidado
+                integral y confiable. Descubre cómo VitaLink simplifica el
+                cuidado de tus seres queridos.
+              </p>
+              <div class="wrapper">
+                <div class="about-coach">
+                  <figure class="coach-avatar">
+                    <img
+                      src="./assets/images/about-coach1.jpg"
+                      width="65"
+                      height="65"
+                      loading="lazy"
+                      alt="Trainer"
+                    />
+                  </figure>
+                  <div>
+                    <h3 class="h3 coach-name">Denis Robinson</h3>
+                    <p class="coach-title">CEO Latam</p>
+                  </div>
+                </div>
+
+                <a href="about.html" class="btn btn-primary">Conoce más</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section video" aria-label="video">
+          <div class="container">
+            <div
+              class="video-card has-before has-bg-image"
+              style="background-image: url('./assets/images/video-banner1.jpg')"
+            >
+              <h2 class="h2 card-title">Conócenos Mejor</h2>
+              <a href="about.html" class="play-btn" aria-label="play video">
+                <ion-icon name="play-sharp" aria-hidden="true"></ion-icon>
+              </a>
+              <a href="about.html" class="btn-link has-before"> Ver Más </a>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="section class bg-dark has-bg-image"
+          id="class"
+          aria-label="class"
+          style="background-image: url('./assets/images/classes-bg.png')"
+        >
+          <div class="container">
+            <p class="section-subtitle">Hogares Aliados</p>
+            <h2 class="h2 section-title text-center">
+              Listado de Centros Certificados
+            </h2>
+            <ul class="class-list has-scrollbar">
+              <li class="scrollbar-item">
+                <a href="campanario.html">
+                  <div class="class-card">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 416; --height: 240"
+                    >
+                      <img
+                        src="./assets/images/class-11.jpg"
+                        width="416"
+                        height="240"
+                        loading="lazy"
+                        alt="Weight Lifting"
+                        class="img-cover"
+                      />
+                    </figure>
+                    <div class="card-content">
+                      <div class="title-wrapper">
+                        <img
+                          src="./assets/images/campanario.png"
+                          width="52"
+                          height="52"
+                          aria-hidden="true"
+                          alt=""
+                          class="title-icon"
+                        />
+                        <h3 class="h3">
+                          <a href="campanario.html" class="card-title"
+                            >El Campanario</a
+                          >
+                        </h3>
+                      </div>
+                      <p class="card-text">
+                        Uno de los hogares más bellos y mejor ubicados de la
+                        ciudad de Palmira.
+                      </p>
+                      <div class="card-progress">
+                        <div class="progress-wrapper">
+                          <p class="progress-label">Valoración</p>
+                          <span class="progress-value">85%</span>
+                        </div>
+                        <div class="progress-bg">
+                          <div class="progress-bar" style="width: 85%"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <li class="scrollbar-item">
+                <a href="#">
+                  <div class="class-card">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 416; --height: 240"
+                    >
+                      <img
+                        src="./assets/images/class-2.jpg"
+                        width="416"
+                        height="240"
+                        loading="lazy"
+                        alt="Próximamente"
+                        class="img-cover"
+                      />
+                    </figure>
+                    <div class="card-content">
+                      <div class="title-wrapper">
+                        <img
+                          src="./assets/images/class-icon-2.png"
+                          width="52"
+                          height="52"
+                          aria-hidden="true"
+                          alt=""
+                          class="title-icon"
+                        />
+                        <h3 class="h3">
+                          <a href="#" class="card-title">Próximamente</a>
+                        </h3>
+                      </div>
+                      <p class="card-text">
+                        Suspendisse nisi libero, cursus ac magna sit amet,
+                        fermentum imperdiet nisi.
+                      </p>
+                      <div class="card-progress">
+                        <div class="progress-wrapper">
+                          <p class="progress-label">Valoración</p>
+                          <span class="progress-value">70%</span>
+                        </div>
+                        <div class="progress-bg">
+                          <div class="progress-bar" style="width: 70%"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <li class="scrollbar-item">
+                <a href="#">
+                  <div class="class-card">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 416; --height: 240"
+                    >
+                      <img
+                        src="./assets/images/class-3.jpg"
+                        width="416"
+                        height="240"
+                        loading="lazy"
+                        alt="Próximamente"
+                        class="img-cover"
+                      />
+                    </figure>
+                    <div class="card-content">
+                      <div class="title-wrapper">
+                        <img
+                          src="./assets/images/class-icon-3.png"
+                          width="52"
+                          height="52"
+                          aria-hidden="true"
+                          alt=""
+                          class="title-icon"
+                        />
+                        <h3 class="h3">
+                          <a href="#" class="card-title">Próximamente</a>
+                        </h3>
+                      </div>
+                      <p class="card-text">
+                        Suspendisse nisi libero, cursus ac magna sit amet,
+                        fermentum imperdiet nisi.
+                      </p>
+                      <div class="card-progress">
+                        <div class="progress-wrapper">
+                          <p class="progress-label">Valoración</p>
+                          <span class="progress-value">90%</span>
+                        </div>
+                        <div class="progress-bg">
+                          <div class="progress-bar" style="width: 90%"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+              <li class="scrollbar-item">
+                <a href="#">
+                  <div class="class-card">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 416; --height: 240"
+                    >
+                      <img
+                        src="./assets/images/class-4.jpg"
+                        width="416"
+                        height="240"
+                        loading="lazy"
+                        alt="Próximamente"
+                        class="img-cover"
+                      />
+                    </figure>
+                    <div class="card-content">
+                      <div class="title-wrapper">
+                        <img
+                          src="./assets/images/class-icon-4.png"
+                          width="52"
+                          height="52"
+                          aria-hidden="true"
+                          alt=""
+                          class="title-icon"
+                        />
+                        <h3 class="h3">
+                          <a href="#" class="card-title">Próximamente</a>
+                        </h3>
+                      </div>
+                      <p class="card-text">
+                        Suspendisse nisi libero, cursus ac magna sit amet,
+                        fermentum imperdiet nisi.
+                      </p>
+                      <div class="card-progress">
+                        <div class="progress-wrapper">
+                          <p class="progress-label">Valoración</p>
+                          <span class="progress-value">60%</span>
+                        </div>
+                        <div class="progress-bg">
+                          <div class="progress-bar" style="width: 60%"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="section blog" id="blog" aria-label="blog">
+          <div class="container">
+            <p class="section-subtitle">Cuidadores</p>
+            <h2 class="section-title text-center">Profesionales Calificados</h2>
+            <ul class="blog-list has-scrollbar">
+              <li class="scrollbar-item">
+                <div class="blog-card">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 440; --height: 270"
+                  >
+                    <img
+                      src="./assets/images/blog-1.jpg"
+                      width="440"
+                      height="270"
+                      loading="lazy"
+                      alt="Carlos Alberto Gómez"
+                      class="img-cover"
+                    />
+                    <p class="card-meta">Acondicionamiento</p>
+                  </div>
+                  <div class="card-content">
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Carlos Alberto Gómez</a>
+                    </h3>
+                    <p class="card-text">
+                      Praesent id ipsum pellentesque lectus dapibus condimentum
+                      curabitur eget risus quam. In hac habitasse platea
+                      dictumst.
+                    </p>
+                    <a href="#" class="btn-link has-before">Leer Más</a>
+                  </div>
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="blog-card">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 440; --height: 270"
+                  >
+                    <img
+                      src="./assets/images/blog-2.jpg"
+                      width="440"
+                      height="270"
+                      loading="lazy"
+                      alt="María Elena Rodríguez"
+                      class="img-cover"
+                    />
+                    <p class="card-meta">Enfermera</p>
+                  </div>
+                  <div class="card-content">
+                    <h3 class="h3">
+                      <a href="#" class="card-title">María Elena Rodríguez</a>
+                    </h3>
+                    <p class="card-text">
+                      Praesent id ipsum pellentesque lectus dapibus condimentum
+                      curabitur eget risus quam. In hac habitasse platea
+                      dictumst.
+                    </p>
+                    <a href="#" class="btn-link has-before">Leer Más</a>
+                  </div>
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="blog-card">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 440; --height: 270"
+                  >
+                    <img
+                      src="./assets/images/blog-3.jpg"
+                      width="440"
+                      height="270"
+                      loading="lazy"
+                      alt="Ana Sofía Martínez"
+                      class="img-cover"
+                    />
+                    <p class="card-meta">Fisioterapeuta</p>
+                  </div>
+                  <div class="card-content">
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Ana Sofía Martínez</a>
+                    </h3>
+                    <p class="card-text">
+                      Praesent id ipsum pellentesque lectus dapibus condimentum
+                      curabitur eget risus quam. In hac habitasse platea
+                      dictumst.
+                    </p>
+                    <a href="#" class="btn-link has-before">Leer Más</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <footer class="footer" id="footer">
+      <div
+        class="section footer-top bg-dark has-bg-image"
+        style="background-image: url('./assets/images/footer-bg.png')"
+      >
+        <div class="container">
+          <div class="footer-brand">
+            <a href="#" class="logo">
+              <ion-icon name="share-social-sharp" aria-hidden="true"></ion-icon>
+              <span class="span">VitaLink</span>
+            </a>
+            <p class="footer-brand-text">
+              Conectamos familias con hogares geriátricos de alta calidad,
+              cuidado profesional, bienestar y seguridad para tus familiares.
+            </p>
+            <div class="wrapper">
+              <img
+                src="./assets/images/footer-clock1.png"
+                width="34"
+                height="34"
+                loading="lazy"
+                alt="Clock"
+              />
+              <ul class="footer-brand-list">
+                <li>
+                  <p class="footer-brand-title">Lunes - Viernes</p>
+                  <p>8:00am - 4:00pm</p>
+                </li>
+                <li>
+                  <p class="footer-brand-title">Sábados - Domingos</p>
+                  <p>10:00am - 12:00m</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title has-before">Nuestros Links</p>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Inicio</a>
+            </li>
+            <li>
+              <a href="#about" class="footer-link">Nosotros</a>
+            </li>
+            <li>
+              <a href="#class" class="footer-link">Hogares</a>
+            </li>
+            <li>
+              <a href="#blog" class="footer-link">Cuidadores</a>
+            </li>
+            <!-- <li>
+              <a href="#" class="footer-link">Contáctanos</a>
+            </li> -->
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title has-before">Contáctanos</p>
+            </li>
+
+            <li class="footer-list-item">
+              <div class="icon">
+                <ion-icon name="location" aria-hidden="true"></ion-icon>
+              </div>
+              <address class="address footer-link">
+                Kukatpally New Jersey USA <br />
+                Palmira Colombia
+              </address>
+            </li>
+
+            <li class="footer-list-item">
+              <div class="icon">
+                <ion-icon name="call" aria-hidden="true"></ion-icon>
+              </div>
+              <div>
+                <a href="tel:18001213637" class="footer-link"
+                  >1800-121-3637 USA</a
+                >
+                <a href="tel:+91552348765" class="footer-link"
+                  >+91 552 348 765 Colombia</a
+                >
+              </div>
+            </li>
+
+            <li class="footer-list-item">
+              <div class="icon">
+                <ion-icon name="mail" aria-hidden="true"></ion-icon>
+              </div>
+              <div>
+                <a href="mailto:vitalinkco@gmail.com" class="footer-link"
+                  >vitalinkco@gmail.com</a
+                >
+                <a href="mailto:infovitalinkco@gmail.com" class="footer-link"
+                  >infovitalinkco@gmail.com</a
+                >
+              </div>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title has-before">Noticias</p>
+            </li>
+            <li>
+              <form
+                action="https://formspree.io/f/mblgjkpn"
+                method="POST"
+                class="footer-form"
+              >
+                <input
+                  type="email"
+                  name="email"
+                  aria-label="email"
+                  placeholder="Dirección Email"
+                  required
+                  class="input-field"
+                />
+                <button
+                  type="submit"
+                  class="btn btn-primary"
+                  aria-label="submit"
+                >
+                  <ion-icon
+                    name="chevron-forward-sharp"
+                    aria-hidden="true"
+                  ></ion-icon>
+                </button>
+              </form>
+            </li>
+            <li>
+              <ul class="social-list">
+                <li>
+                  <a
+                    href="https://www.facebook.com/share/18LcCeyA11/"
+                    class="social-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/vitalinkcol?utm_source=qr&igsh=MXNjM3l5dTFpdzBkZQ=="
+                    class="social-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.tiktok.com/@vitalink.colombia?_t=ZS-8ub6TbJuUMs&_r=1"
+                    class="social-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <ion-icon name="logo-tiktok"></ion-icon>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="copyright">
+            &copy; 2025 VitaLink Todos los derechos reservados. <br />
+            Made with ❤️ by
+            <a
+              href="https://antsoftdesign.vercel.app/"
+              class="copyright-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              >ANT</a
+            >
+          </p>
+          <ul class="footer-bottom-list">
+            <li>
+              <a
+                href="/legal/privacy-policy.html"
+                class="footer-bottom-link has-before"
+                >Política Privacidad</a
+              >
+            </li>
+            <li>
+              <a
+                href="/legal/terms-conditions.html"
+                class="footer-bottom-link has-before"
+                >Terminos Condiciones</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <a
+      href="#top"
+      class="back-top-btn"
+      aria-label="back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="caret-up-sharp" aria-hidden="true"></ion-icon>
+    </a>
+
+    <script src="./assets/js/script.js" defer></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

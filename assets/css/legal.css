@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--Blanco-calido);
+    color: var(--Azul-marino-oscuro);
+    line-height: 1.6;
+}
+
+/* Estilos específicos para las páginas legales */
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: var(--Blanco-principal);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: var(--Azul-noche-profundo);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: var(--Dorado-principal);
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 0;
+    background-color: var(--Blanco-roto);
+}

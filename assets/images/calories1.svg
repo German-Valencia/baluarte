@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="96.111526mm"
+   height="59.416664mm"
+   viewBox="0 0 96.111527 59.416664"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="calories1.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview15791"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.7285229"
+     inkscape:cx="397.44917"
+     inkscape:cy="91.407524"
+     inkscape:window-width="1920"
+     inkscape:window-height="1044"
+     inkscape:window-x="1600"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs2">
+    <filter
+       id="filter0_d_6_18"
+       x="0"
+       y="0"
+       width="363"
+       height="224"
+       filterUnits="userSpaceOnUse"
+       color-interpolation-filters="sRGB">
+      <feFlood
+         flood-opacity="0"
+         result="BackgroundImageFix"
+         id="feFlood19" />
+      <feColorMatrix
+         in="SourceAlpha"
+         type="matrix"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+         result="hardAlpha"
+         id="feColorMatrix21" />
+      <feOffset
+         dy="30"
+         id="feOffset23" />
+      <feGaussianBlur
+         stdDeviation="30"
+         id="feGaussianBlur25" />
+      <feComposite
+         in2="hardAlpha"
+         operator="out"
+         id="feComposite27" />
+      <feColorMatrix
+         type="matrix"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.4 0"
+         id="feColorMatrix29" />
+      <feBlend
+         mode="normal"
+         in2="BackgroundImageFix"
+         result="effect1_dropShadow_6_18"
+         id="feBlend31" />
+      <feBlend
+         mode="normal"
+         in="SourceGraphic"
+         in2="effect1_dropShadow_6_18"
+         result="shape"
+         id="feBlend33" />
+    </filter>
+    <filter
+       id="filter0_d_6_18-3"
+       x="0"
+       y="0"
+       width="363"
+       height="224"
+       filterUnits="userSpaceOnUse"
+       color-interpolation-filters="sRGB">
+      <feFlood
+         flood-opacity="0"
+         result="BackgroundImageFix"
+         id="feFlood9227" />
+      <feColorMatrix
+         in="SourceAlpha"
+         type="matrix"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+         result="hardAlpha"
+         id="feColorMatrix9229" />
+      <feOffset
+         dy="30"
+         id="feOffset9231" />
+      <feGaussianBlur
+         stdDeviation="30"
+         id="feGaussianBlur9233" />
+      <feComposite
+         in2="hardAlpha"
+         operator="out"
+         id="feComposite9235" />
+      <feColorMatrix
+         type="matrix"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.4 0"
+         id="feColorMatrix9237" />
+      <feBlend
+         mode="normal"
+         in2="BackgroundImageFix"
+         result="effect1_dropShadow_6_18"
+         id="feBlend9239" />
+      <feBlend
+         mode="normal"
+         in="SourceGraphic"
+         in2="effect1_dropShadow_6_18"
+         result="shape"
+         id="feBlend9241" />
+    </filter>
+    <filter
+       id="filter0_d_6_18-36"
+       x="0"
+       y="0"
+       width="363"
+       height="224"
+       filterUnits="userSpaceOnUse"
+       color-interpolation-filters="sRGB">
+      <feFlood
+         flood-opacity="0"
+         result="BackgroundImageFix"
+         id="feFlood944" />
+      <feColorMatrix
+         in="SourceAlpha"
+         type="matrix"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+         result="hardAlpha"
+         id="feColorMatrix946" />
+      <feOffset
+         dy="30"
+         id="feOffset948" />
+      <feGaussianBlur
+         stdDeviation="30"
+         id="feGaussianBlur950" />
+      <feComposite
+         in2="hardAlpha"
+         operator="out"
+         id="feComposite952" />
+      <feColorMatrix
+         type="matrix"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.4 0"
+         id="feColorMatrix954" />
+      <feBlend
+         mode="normal"
+         in2="BackgroundImageFix"
+         result="effect1_dropShadow_6_18"
+         id="feBlend956" />
+      <feBlend
+         mode="normal"
+         in="SourceGraphic"
+         in2="effect1_dropShadow_6_18"
+         result="shape"
+         id="feBlend958" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter1418"
+       x="-0.11296847"
+       y="-0.26505331"
+       width="1.3192741"
+       height="1.7490998">
+      <feFlood
+         flood-opacity="0.243137"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood1408" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1410" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur1412" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset1414" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite1416" />
+    </filter>
+  </defs>
+  <rect
+     style="fill:#333333;stroke:#333333;stroke-width:0.123918;stroke-opacity:1;filter:url(#filter1418)"
+     id="rect9288"
+     width="64.283058"
+     height="27.398108"
+     x="15.75871"
+     y="8.0679636"
+     ry="2.184469" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:3.73228px;line-height:1.25;font-family:sans-serif;fill:#999999;fill-opacity:1;stroke:#999999;stroke-width:0.193;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     x="37.589951"
+     y="19.285686"
+     id="text11043"
+     transform="scale(1.0081712,0.99189502)"><tspan
+       id="tspan11041"
+       style="fill:#999999;stroke:#999999;stroke-width:0.193;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="37.589951"
+       y="19.285686">Mejora Constante</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:5.64419px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.141;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     x="35.865173"
+     y="30.514664"
+     id="text13159"
+     transform="scale(1.0622856,0.94136643)"><tspan
+       id="tspan13157"
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:0.141;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="35.865173"
+       y="30.514664">Atención</tspan></text>
+  <rect
+     style="fill:#469cb9;fill-opacity:1;stroke:none;stroke-width:0.195782;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect14734"
+     width="2.1389258"
+     height="12.685966"
+     x="30.292114"
+     y="16.212687"
+     ry="0.86735106" />
+  <rect
+     style="fill:#469cb9;fill-opacity:1;stroke:none;stroke-width:0.125938;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect14734-7"
+     width="2.1389258"
+     height="5.2491894"
+     x="21.867056"
+     y="23.649462"
+     ry="0.74494863" />
+  <rect
+     style="fill:#469cb9;fill-opacity:1;stroke:none;stroke-width:0.152938;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect14734-5"
+     width="2.1389258"
+     height="7.7411585"
+     x="24.654507"
+     y="21.157495"
+     ry="0.52927005" />
+  <rect
+     style="fill:#469cb9;fill-opacity:1;stroke:none;stroke-width:0.178563;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect14734-3"
+     width="2.1389258"
+     height="10.552598"
+     x="27.411243"
+     y="18.346064"
+     ry="0.72149074" />
+</svg>

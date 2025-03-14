@@ -1,0 +1,191 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--Blanco-calido);
+    color: var(--Azul-marino-oscuro);
+    line-height: 1.6;
+}
+
+nav {
+    background-color: var(--Blanco-roto);
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--Dorado-principal);
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    margin: 5px;
+}
+
+nav a:hover {
+    background-color: var(--Dorado-calido);
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: var(--Blanco-principal);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+    color: var(--Azul-noche-profundo);
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+strong {
+    color: var(--Dorado-principal);
+    font-weight: bold;
+}
+
+.video-presentation {
+    margin: 40px 0;
+    padding: 20px 0;
+    border-top: 2px solid var(--Dorado-calido);
+    border-bottom: 2px solid var(--Dorado-calido);
+}
+
+/* Media Queries para pantallas pequeñas */
+@media (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+
+    nav a {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        margin: 5px 0;
+    }
+
+    .video-container {
+        margin: 5px - 5px;
+        /* Compensa el padding del contenedor padre */
+    }
+}
+
+.about-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main>section {
+    margin-top: 20px;
+}
+
+main>section section {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: var(--Blanco-puro-translucido);
+    border-radius: 8px;
+}
+
+/* Estilos para los enlaces de retorno */
+.return-top,
+.return-bottom {
+    text-align: center;
+    padding: 15px 0;
+    background-color: var(--Blanco-roto);
+}
+
+.return-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--Dorado-principal);
+    color: var(--Blanco-principal);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.return-link:hover {
+    background-color: var(--Dorado-calido);
+    color: var(--Dorado-principal);
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    margin-top: 20px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.whatsapp-button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.whatsapp-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #25D366;
+    /* Verde de WhatsApp */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-button:hover {
+    background-color: #128C7E;
+    /* Verde más oscuro al pasar el ratón */
+}
+
+/* Media Queries para pantallas pequeñas */
+@media (max-width: 600px) {
+    .about-image {
+        max-height: 250px;
+    }
+}
+
+/* Estilos adicionales para la sección de habitaciones y precios */
+main>section section:nth-child(4) ul {
+    /*para la lista de precios*/
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+main>section section:nth-child(4) p em {
+    /* para el texto de la nota al pie de precios*/
+    font-size: 0.9em;
+    color: var(--Azul-noche-profundo);
+    display: block;
+    margin-top: 10px;
+}
