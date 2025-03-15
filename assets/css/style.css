@@ -282,7 +282,7 @@ body {
   transform: translate(-50%, -56%);
   width: 100%;
   z-index: -1;
-  animation: rotate360 15s linear infinite;
+  animation: rotate360 5s linear infinite;
 }
 
 @keyframes rotate360 {
@@ -439,7 +439,7 @@ body {
   /* Mantiene la proporción original */
   display: block;
   /* Elimina espacios no deseados */
-  margin: 0 auto;
+  /* margin: 0 auto; */
   /* Centra la imagen horizontalmente */
   object-fit: contain;
   /* Evita distorsión de la imagen */
