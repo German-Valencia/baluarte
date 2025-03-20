@@ -9,6 +9,10 @@ body {
 
 /* Estilos específicos para las páginas legales */
 
+a {
+    display: inline-block;
+}
+
 main {
     max-width: 800px;
     margin: 20px auto;
