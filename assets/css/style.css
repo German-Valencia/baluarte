@@ -1274,11 +1274,11 @@ body {
   }
 
   .header .logo {
-    color: var(--Blanco-principal);
+    color: var(--Dorado-principal);
   }
 
   .header.active .logo {
-    color: var(--Azul-marino-oscuro);
+    color: var(--Dorado-principal);
   }
 
   .navbar,
